@@ -1,14 +1,12 @@
-//
-//  main.c
-//  stars
-//
-//  Created by Sanaa Kumar on 04/09/25.
-//
-
-#include <stdio.h>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+#include<stdio.h>
+int main (void){
+    int n=1,j=1;
+    for (n=1;n<=13;n++)
+    {
+        for(j=1;j<=n;j++)
+        {
+            printf("* ");
+        }
+        printf("\n");
+    }
 }
